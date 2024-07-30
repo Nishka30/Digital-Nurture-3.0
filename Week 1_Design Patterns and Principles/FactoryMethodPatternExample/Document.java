@@ -1,5 +1,6 @@
-package Week 1_Design Patterns and Principles.FactoryMethodPatternExample;
+package FactoryMethodPatternExample;
 
-public class Document {
-    
+// Document.java
+public interface Document {
+    void open();
 }
