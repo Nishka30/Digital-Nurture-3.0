@@ -1,5 +1,5 @@
-package Week 1_Design Patterns and Principles.ProxyPatternExample;
+package ProxyPatternExample;
 
-public class Image {
-    
+public interface Image {
+    void display();
 }
