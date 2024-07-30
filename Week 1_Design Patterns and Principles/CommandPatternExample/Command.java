@@ -1,5 +1,5 @@
-package Week 1_Design Patterns and Principles.CommandPatternExample;
+package CommandPatternExample;
 
-public class Command {
-    
+public interface Command {
+    void execute();
 }
